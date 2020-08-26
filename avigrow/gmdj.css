@@ -1,0 +1,182 @@
+body {
+  background-color: #f4f4f4;
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.6em;
+  margin: 0;
+}
+a:hover{
+  color: blue;
+}
+a:active{
+  color:red;
+}
+.popup{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+#main-header {
+  background-color: green;
+  color: white;
+}
+#navbar {
+  background-color: #f4f4f4;
+  color: #555;
+}
+#navbar ul {
+  padding: 0;
+  list-style: none;
+}
+#navbar li {
+  display: inline;
+}
+#navbar a {
+  color: #555;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 15px;
+  margin-top: auto;
+}
+#showcase {
+  background-image: url('bg_2.jpg');
+  background-position: center;
+  min-height: 300px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+#showcase h1 {
+  color: white;
+}
+#main {
+  float: left;
+  width: 70%;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+#sidebar {
+  float: right;
+  width: 30%;
+  background: green;
+  color: white;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+#main-footer {
+  background: darkgrey;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  margin-top: 100px;
+}
+@media (max-width: 600px) {
+  #main{
+      width: 100%;
+      float: none;
+  }
+  #sidebar{
+      width: 100%;
+      float: none;
+  }
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+.login-page {
+  width: 360px;
+  margin: auto;
+}
+.form {
+  height:86%;
+  width:100%;
+  box-sizing:border-box;
+  padding:40px;
+  position: relative;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  text-align: center;
+}
+form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: green;
+  width: 100%;
+  border: 0;
+  color: #FFFFFF;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  height:50px;
+  width:100%;
+  border-radius:3px;
+  box-sizing:border-box;
+  padding:10px;
+  margin-bottom:30px;
+  font-weight:bold;
+  font-size: 12pt;
+  cursor:pointer;
+}
+.button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: green;
+  width: 100%;
+  border: 0;
+  color: #FFFFFF;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  height:50px;
+  width:100%;
+  border-radius:3px;
+  box-sizing:border-box;
+  padding:10px;
+  margin-bottom:30px;
+  font-weight:bold;
+  font-size: 12pt;
+  cursor:pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #43A047;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.textbox{
+  height:50px;
+  width:100%;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 2px solid;
+  box-sizing:border-box;
+  padding:10px;
+  margin-bottom:30px;
+}
+.textbox:focus{
+  outline:none;
+  border:rgba(24,149,215,1) 2px solid;
+  color:rgba(24,149,215,1);
+}
+.date-field{
+  height:50px;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 2px solid;
+  box-sizing:border-box;
+  padding:10px;
+  margin-bottom:30px;
+  width: 70px;
+}
